@@ -1,0 +1,67 @@
+@media (max-width: 56.25em) {
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 37.5em) {
+  .spinner {
+    margin: 5rem auto;
+    text-align: center;
+    grid-column: 1 /-1;
+    height: 100vh;
+  }
+
+  header {
+    padding: 15rem 1rem;
+    background-image: url(img/header.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 25.75em) {
+  header {
+    padding: 15rem 1rem;
+    background-image: url(img/header.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .search {
+    padding: 1.5rem 2rem;
+    width: 100%;
+    border-radius: 100rem;
+    border: none;
+    background-color: rgb(255, 241, 220);
+
+    background-position: center;
+    background-size: cover;
+  }
+  .primary-header {
+    color: white;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+  }
+  .btn-search {
+    margin-top: 2rem;
+    padding: 1.2rem 3rem;
+    border-radius: 3rem;
+    border: 0.3rem solid white;
+    cursor: pointer;
+    margin-left: 0;
+    background-color: rgb(202, 146, 74);
+    color: white;
+    transition: all 0.5s ease;
+  }
+}
